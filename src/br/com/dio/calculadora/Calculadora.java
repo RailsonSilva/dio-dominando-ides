@@ -17,7 +17,7 @@ public class Calculadora {
 		int soma = soma(a, b);
 		int subtracao = subtracao(a,b);
 		int multiplicacao = multiplicacao(a,b);
-		int divisao = divisao(a,b);
+		float divisao = divisao(a,b);
 		//criar váriavel - CTRL+2 L
 		
 		System.out.println("Soma entre " + a + " + " + b + " é igual a " + soma);
@@ -33,13 +33,14 @@ public class Calculadora {
 	public static int subtracao(int a, int b) {
 		return a - b;
 	}
-
+	
+	public static float divisao(float a, float b) {
+		return a / b;
+	}
+	
 	public static int multiplicacao(int a, int b) {
 		return a * b;
 	}
 
-	public static int divisao(int a, int b) {
-		return a / b;
-	}
 
 }
