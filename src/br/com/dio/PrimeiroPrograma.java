@@ -4,7 +4,7 @@ import br.com.dio.model.Gato; // CTRL+SHIFT+O - faz a importação automática d
 //CTRL+D - APAGA A LINHA
 //CTRL+M - EXIBE/SOME O MENU
 //CTRL+SHIFT+F - ARRUMA A DOCUMENTAÇÃO
- 
+
 public class PrimeiroPrograma {
 	  
 	public static void main(String[] args) {
