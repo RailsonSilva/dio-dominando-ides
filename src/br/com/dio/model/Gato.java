@@ -32,7 +32,7 @@ public class Gato {
 	public void setCor(String cor) {
 		this.cor = cor;
 	}
-
+ 
 	public Integer getIdade() {
 		return idade;
 	}
