@@ -10,7 +10,6 @@ public class PrimeiroPrograma {
 	public static void main(String[] args) {
 		Gato gato = new Gato();
 		Livros livros = new Livros();
-		//teste eclipse  
 		System.out.println(gato);
 		System.out.println(livros);
 		/* int a = 3;
